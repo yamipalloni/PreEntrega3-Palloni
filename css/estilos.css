@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgba(255, 0, 0, 0.829);
+  font-family: "Lato", italic;
+}
+.navbar a {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgba(33, 37, 37, 0.699) !important;
+}
+
+h2 {
+  padding-top: 20px;
+  color: rgba(33, 37, 37, 0.699);
+  font-family: "Lato", italic;
+}
+
+h3 {
+  padding-top: 20px;
+  color: rgba(33, 37, 37, 0.699);
+  font-family: "Lato", italic;
+}
+
+h4 {
+  color: rgba(33, 37, 37, 0.699);
+  font-family: "Lato", italic;
+}
+
+h6 {
+  color: rgba(33, 37, 37, 0.699);
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  color: rgba(33, 37, 37, 0.699);
+  font-family: "Nunito", sans-serif;
+}
+
+.jumbotron {
+  background-image: url(../multimedia/portada.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.8);
+  height: 400px;
+  /*altura 400px*/
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.container h1 {
+  text-shadow: 0 0 2px;
+  font-family: "Lato", italic;
+  color: rgba(33, 37, 37, 0.699);
+}
+
+.sec {
+  text-transform: uppercase;
+  background-color: rgba(255, 0, 0, 0.829);
+  text-align: center;
+}
+.sec h2 {
+  color: white;
+  padding: 20px;
+}
+
+.index {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.texto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.espacios {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.indexproducto {
+  border-radius: 20px;
+  transition: 0.7s;
+}
+.indexproducto :hover {
+  transform: scale(0.9);
+  /* se reduce en un 10% */
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.equipo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.equipo h3 {
+  text-align: center;
+}
+
+.nosotros {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.productos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.galeria {
+  color: rgba(33, 37, 37, 0.699);
+  text-align: center;
+}
+
+.productogaleria {
+  border-radius: 20px;
+  transition: 0.7s;
+}
+.productogaleria :hover {
+  transform: scale(0.9);
+  /* se reduce en un 10% */
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.locales {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgba(33, 37, 37, 0.699);
+}
+
+.table {
+  color: rgba(33, 37, 37, 0.699);
+}
+
+.servicios h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.cuadrado {
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  border: 2px solid rgba(33, 37, 37, 0.699);
+  line-height: 100px;
+  color: rgba(255, 0, 0, 0.829);
+  text-align: center;
+  font-weight: "Lato", italic;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0 auto;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.cuadrado:hover {
+  transform: scale(0.9);
+  background-color: rgba(255, 0, 0, 0.829);
+  color: white;
+  border-radius: 20px;
+}
+
+.contacto {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: rgba(255, 0, 0, 0.829);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn:hover {
+  background-color: rgba(33, 37, 37, 0.699);
+  border-color: rgba(255, 0, 0, 0.829);
+  color: white;
+}
+
+footer {
+  background-color: rgba(255, 0, 0, 0.829);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer .redes a {
+  letter-spacing: 20 px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+footer .redes a :hover {
+  color: rgba(33, 37, 37, 0.699);
+}
+
+.subir {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.829);
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.subir :hover {
+  color: rgba(33, 37, 37, 0.699);
+}/*# sourceMappingURL=estilos.css.map */
